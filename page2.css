@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Anonymous Pro", monospace;
+  background-color: rgb(25, 25, 25);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  /* overflow: hidden; */
+  /* height: 100vh; */
+  font-size: 18px;
+}
+img {
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+}
+
+.box {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  border: 2px #fff solid;
+  border-radius: 25px;
+}
+h1 {
+  margin-top: 25px;
+  font-weight: 300;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
+p {
+  margin: 40px;
+}
+
+button {
+  margin-left: 80px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+footer {
+  border: 2px #fff solid;
+  padding-right: 25%;
+  padding-left: 25%;
+}
